@@ -1,0 +1,51 @@
+* {
+	padding: 3% 3%;
+	 background-image: linear-gradient(to right, red , yellow);
+}
+
+
+/* анымація для лого в футері*/
+.footer_logo {
+	padding-top: 5vmax;
+	font-size: 50px;
+  	text-align: center;
+  	font-size: 3vmax;
+  	color: #D60A0A;
+  	font-weight: 400;
+  	text-transform: uppercase;
+  	animation: blur .85s ease-out infinite;
+  	text-shadow: 0px 0px 5px #1C0606, 0px 0px 7px #1C0606;
+}
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #1C0606,
+      0px 0px 10px #7C1212, 
+      0px 0px 25px #7C1212,
+      0px -10px 100px #7C1212,
+      0px -10px 100px #1C0606;
+  }
+}
+
+.yellow{
+	color:white;
+}
+.ps{
+	color:linear-gradient(to right, #FDFBFB, #EBEDEE 70%);
+}
+
+
+
+.place
+{
+	color: #1C0606;
+	font-weight: bold;
+}
+.exc{
+	margin:0 auto;
+	text-align: center;
+	font-size: 4vh;
+	text-transform: uppercase;
+	font-size: 4vmax;
+	text-shadow: 1px 2px black;
+	text-decoration: none;
+}
