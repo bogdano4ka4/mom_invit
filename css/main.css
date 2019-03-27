@@ -1,6 +1,6 @@
 * {
 	padding: 3% 3%;
-	 background-image: linear-gradient(to right, red , yellow);
+	 background-image: linear-gradient(to right, cyan , white);
 }
 
 
@@ -27,7 +27,7 @@
 }
 
 .yellow{
-	color:white;
+	color:black;
 }
 .ps{
 	color:linear-gradient(to right, #FDFBFB, #EBEDEE 70%);
